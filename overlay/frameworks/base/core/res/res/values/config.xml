@@ -41,17 +41,15 @@
          policy/src/com/android/internal/policy/impl/PhoneWindowManager.java -->
     <integer name="config_longPressOnHomeBehavior">3</integer>
    
-    <bool name="config_button_brightness_support">true</bool>
-    <integer name="config_button_brightness_default">128</integer>
+    <!-- Button brightness -->
+    <integer name="config_buttonBrightnessSettingDefault">255</integer>
+    <bool name="config_deviceHasVariableButtonBrightness">true</bool>
 	
-     <!-- Does the notification LED support multiple colors?
-	   Used to decide if the user can change the colors -->
-    <bool name="config_multiColorNotificationLed">false</bool>
-
-	<!-- Used to decide if the user can change the colors -->
-	<bool name="config_multiColorBatteryLed">false</bool>
-	  
-	<!-- Whether the device has outdated qti-telephony-common.jar -->
-	<bool name="config_oldQtiTelephony">false</bool>
+     <!-- Does the battery LED support multiple colors?
+         Used to decide if the user can change the colors -->
+    <bool name="config_multiColorBatteryLed">false</bool>
+	
+    <!-- Whether device ignores the RSSNR signal implementation -->
+    <bool name="config_ignoreRssnrSignalLevel">true</bool>
    
 </resources>
