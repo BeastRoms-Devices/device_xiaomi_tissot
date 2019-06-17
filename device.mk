@@ -58,6 +58,10 @@ PRODUCT_STATIC_BOOT_CONTROL_HAL := \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
     $(LOCAL_PATH)/audio/mixer_paths_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_mtp.xml
+
+# Camera
+PRODUCT_PACKAGES += \
+    Snap2
 	
 # ConsumerIr
 PRODUCT_PACKAGES += \
