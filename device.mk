@@ -61,7 +61,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap2
+    Snap
 	
 # ConsumerIr
 PRODUCT_PACKAGES += \
